@@ -122,6 +122,7 @@ function resetGame() {
   const gameOverBtn = document.querySelector('#gameOverBtn');
   gameOverBtn.classList.remove('disabled');
   gameOverBtn.addEventListener('click', function () {
+    gameOverBtn.classList.add('disabled');
     location.reload();
   });
   curRound.appendChild(p);
