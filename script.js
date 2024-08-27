@@ -120,9 +120,9 @@ function playRound() {
 function resetGame() {
   createScoreNode('Game over! Press button to play again.');
   const gameOverBtn = document.querySelector('#gameOverBtn');
-  gameOverBtn.classList.remove('disabled');
+  gameOverBtn.style.display = 'flex';
   gameOverBtn.addEventListener('click', function () {
-    gameOverBtn.classList.add('disabled');
+    gameOverBtn.style.display = 'none';
     location.reload();
   });
   curRound.appendChild(p);
