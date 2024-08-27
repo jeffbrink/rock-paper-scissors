@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to the Rock, Paper, Scissors Game!</h1>
+
+    <div class="scoreboard">
+      <h3>Your score:</h3>
+      <p id="myScore" class="score">0</p>
+      <h3>Computer score:</h3>
+      <p id="compScore" class="score">0</p>
+    </div>
+
+    <h2>Enter your choice (rock, paper, or scissors):</h2>
+    <input type="text" id="userInput" placeholder="rock" />
+    <button id="playBtn">Play Round</button>
+    <br />
+    <div class="curRound disabled"></div>
+    <button id="gameOverBtn" class="disabled">Play Again</button>
+  </body>
+</html>

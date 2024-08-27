@@ -1,0 +1,57 @@
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+  display: inline-block;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+}
+
+input {
+  display: inline-block;
+}
+
+.curRound {
+  border: 2px red solid;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.disabled {
+  display: none;
+}
+
+.scoreboard {
+  border: 2px lightblue dashed;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.score {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+#gameOverBtn {
+  width: 25%;
+  padding: 100px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
